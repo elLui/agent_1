@@ -84,7 +84,7 @@ document.getElementById("demo").innerHTML = person.lang;
 
 
 
-// adding an iterator to an object requries the Symbol.iterator -
+// adding an iterator to an object requires the Symbol.iterator -
 // if not included you will not be able to use the for...of statement -
 // Create an Object
 myNumbers = {};
