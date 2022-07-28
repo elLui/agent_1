@@ -85,7 +85,7 @@ body {
 }
 
 .top-article {
-    background-color: magenta;
+    background-color: lightseagreen;
 
     grid-column: 3 / 10;
     grid-row: 3 / 10;
