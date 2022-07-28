@@ -1,7 +1,46 @@
 
+
+
+item_3_inner_text = document.querySelector(".container");
+
+// document.querySelector(".container").children.item(0)
+
+document.querySelector(".container").children.item(1)
+document.querySelector(".container").children.item(2)
+
+
+
+console.log(item_3_inner_text)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // js.object.templates
-
-
 // Create an object:
 const person = {
     firstName: "John",

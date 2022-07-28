@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.item,
+.item-large {
+    padding: 30px;
+    background: #3cf;
+}
+
+.item-large {
+    grid-row: span 2;
+}
+
+.item-found {
+    background-color: red;
+}
