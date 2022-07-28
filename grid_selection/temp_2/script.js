@@ -23,6 +23,7 @@ function showFound() {
 showFound();
 
 document.querySelector('.grid').addEventListener("click", function(e) {
+
     if (e.target && !e.target.matches(".grid")) {
         myElement.classList.remove('item-found');
         myElement.innerText = '';
@@ -31,3 +32,7 @@ document.querySelector('.grid').addEventListener("click", function(e) {
         showFound();
     }
 });
+
+function myFunction() {
+    document.getElementById("myDIV").style.gridTemplateColumns = "50px 50px 50px";
+}
