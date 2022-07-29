@@ -1,1 +1,0 @@
-const th = new Field(10, 10);
