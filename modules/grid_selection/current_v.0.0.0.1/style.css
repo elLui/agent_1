@@ -35,10 +35,7 @@
 
 
 
-body {
-    margin: 0;
-    padding: 0;
-}
+
 
 .container {
     display: grid;
@@ -59,7 +56,6 @@ body {
     grid-column: 1 / -1;
     grid-row: 1 / 2;
 
-    height: 10vh;
 
 }
 
@@ -94,7 +90,6 @@ body {
 .top-footer {
     background-color: lime;
 
-    height: 10vh;
 
 
     grid-column: 1 / -1;
