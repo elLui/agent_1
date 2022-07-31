@@ -1,4 +1,4 @@
-class Create_Container {
+class GridContainer {
 
     constructor(topLeft, bottomLeft, topRight, bottomRight, volume) {
 
